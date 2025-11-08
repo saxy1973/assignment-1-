@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 4</title>
+</head>
+<body>
+<!--What are HTML forms and how do they work? Mention key form elements.
+Tests: User input & data submission concept.
+Elements: <form>, name, action, method, <input>, <textarea>, <label>, <select>, <button>
+ -->
+<h1>HTML Forms</h1>
+<p>HTML Forms are used to collect user information from the website. using action attribute use to give location where information need to store. input tag use to take input, name is type of input. Method use to define sent method, textarea used to take longtext as input. Label use to give info what to fill in input. Select element is used to create a dropdown list in a form, allowing users to choose options from a list. Button use toh create submit button </p>
+
+    <form action="ser.php" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>   
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="class">Class</label><br>
+  <select id="class" name="class">
+    <option value="select">--select your class--</option>
+    <option value="class1">616</option>
+    <option value="class2">617</option>
+    <option value="class3">619</option>
+  </select><br>
+  <lable for="section">Section</lable>
+  <input type="radio" id="A" name="section" value="A">  
+  <label for="A">A</label>
+  <input type="radio" id="B" name="section" value="B">
+  <label for="B">B</label><br>
+  <button >Submit</button>
+
+    
+  </form>
+</body>
+</html>
